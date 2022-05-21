@@ -12,7 +12,7 @@ const ServiceSlider = () => {
     <div className="services container">
         <h1 className="title mx-auto">Seasonal Fruits</h1>
       <div className="serviceSlider row">
-        <div data-aos="zoom-in-down" className="col-md-6 col  service-slider-text ">
+        <div data-aos="zoom-in-down" className="col-md-6 col service-slider-text">
         <h3>Advantages of having seasonal fruits of Bangladesh</h3>
         <h5>Exotic Vegetables</h5>
         <h5>Season Sale</h5>
@@ -26,14 +26,12 @@ const ServiceSlider = () => {
         </div>
       </div>
       <h1 className="title mx-auto">best dates in the world</h1>
-      <div className="serviceSlider row container service-slider1">
-        <div data-aos="zoom-in-down" className="col-md-6 service-img p-0">
-          <img src={img4} alt="" />
+      <div className="serviceSlider d-md-flex ">
+        <div data-aos="zoom-in-down" className=" service-img p-0">
+          <img className="w-md-50" src={img4} alt="" />
         </div>
-
-        <div data-aos="zoom-in-left" className="col-md-6 service-slider-text">
-            
-         <h2>They are large, soft, and considered to be the most flavorful dates among all different varieties grown. They taste excellent when eaten fresh because of their high moisture content. Medjool Dates stays good for 12-15 days at room temperature.</h2>
+        <div data-aos="zoom-in-left" className=" service-slider-text w-md-50">
+         <h5>They are large, soft, and considered to be the most flavorful dates among all different varieties grown. They taste excellent when eaten fresh because of their high moisture content. Medjool Dates stays good for 12-15 days at room temperature.</h5>
         </div>
       </div>
     </div>

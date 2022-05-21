@@ -12,8 +12,6 @@ const Products = () => {
       <h2 className="text-light product-title"> Seasonal fruit Store</h2>
       <img className="w-100 product-banner" src={image} alt="" />
       <div className="products-card container">
-      
-      
         {products.map((product) => (
           <ProductsCard key={product._id} product={product} />
         ))}

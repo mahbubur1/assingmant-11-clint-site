@@ -10,21 +10,18 @@ AOS.init();
 const ServiceSlider = () => {
   return (
     <div className="services container">
-        <h1 className="title mx-auto ">Seasonal Fruits</h1>
-      <div className="serviceSlider row  ">
-        <div data-aos="zoom-in-down" className="col-lg-6 col-12 service-slider-text ">
-        <h1>Advantages of having seasonal fruits of Bangladesh</h1>
-        <h3>Exotic Vegetables</h3>
-        <h3>Season Sale</h3>
-        <h3>100% Organic</h3>
-        <h3>100% fresh</h3>
-        <h3>Hot Deals</h3>
-        <h3>Special Offers</h3>
-
-  
-
+        <h1 className="title mx-auto">Seasonal Fruits</h1>
+      <div className="serviceSlider row">
+        <div data-aos="zoom-in-down" className="col-md-6 col  service-slider-text ">
+        <h3>Advantages of having seasonal fruits of Bangladesh</h3>
+        <h5>Exotic Vegetables</h5>
+        <h5>Season Sale</h5>
+        <h5>100% Organic</h5>
+        <h5>100% fresh</h5>
+        <h5>Hot Deals</h5>
+        <h5>Special Offers</h5>
         </div>
-        <div data-aos="zoom-in-down" className="col-lg-6 col-12 service-img p-0">
+        <div data-aos="zoom-in-down" className="col col-md-6 service-img p-0">
           <img src={img} alt="" />
         </div>
       </div>

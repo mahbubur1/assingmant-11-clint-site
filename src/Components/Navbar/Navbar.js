@@ -12,9 +12,9 @@ const Navbar = () => {
   const [user] = useAuthState(auth);
 
   return (
-    <div>
+
       
-      <div className="d-flex navbar-container  " sticky="top">
+      <div className="d-flex navbar-container" sticky="top">
         <div className=" nav-name nav-logo my-auto">
           <Link to="/">
               <img className="hoop" src={logo} alt="" />      
@@ -66,7 +66,7 @@ const Navbar = () => {
           )}
         </div>
       </div>
-    </div>
+   
   );
 };
 

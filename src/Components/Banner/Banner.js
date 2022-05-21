@@ -8,7 +8,6 @@ import { Carousel } from "react-bootstrap";
 const Banner = () => {
   return (
     <div>
-     
       <Carousel>
         <Carousel.Item>
           <img

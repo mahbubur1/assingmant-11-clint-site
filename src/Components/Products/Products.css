@@ -3,16 +3,14 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
     margin-top: 200px;
+    max-width: 100%;
 }
-.product{
-    
+.product{   
     background-image: url(../../Images/bg59.jpg);
-    background-size:    cover ;
+    background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 200px;
-   
-    
- 
+    overflow: hidden;
 }
 .button-product{
     width: 120px;

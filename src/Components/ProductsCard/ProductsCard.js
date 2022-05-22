@@ -17,7 +17,7 @@ const ProductsCard = ({ product }) => {
       data-aos-anchor-placement="center-bottom" 
     className="col-md-4 col p-0 mx-0 my-3"
     >
-      <Card style={{ width: "13rem" }} id="card">
+      <Card style={{ width: "13rem"}} id="card">
         <Card.Body>
           <img className="card-images" src={img} alt={img} />
           <div className="card-text">

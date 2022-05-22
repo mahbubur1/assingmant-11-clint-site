@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCSsshABPJnWfeGAh7DFf-BoJyS7rV9POw",
-  authDomain: "asighnment-11-projects.firebaseapp.com",
-  projectId: "asighnment-11-projects",
-  storageBucket: "asighnment-11-projects.appspot.com",
-  messagingSenderId: "227739145146",
-  appId: "1:227739145146:web:a33d04b7bdcb434f3e4383"
+  apiKey: "AIzaSyDyFSxR4QUY7MaY1xQZe03fFyqfti1Qv5E",
+  authDomain: "halal-food-f3299.firebaseapp.com",
+  projectId: "halal-food-f3299",
+  storageBucket: "halal-food-f3299.appspot.com",
+  messagingSenderId: "470189305362",
+  appId: "1:470189305362:web:5ef0d6379575700581b2cb"
 };
 
 // Initialize Firebase

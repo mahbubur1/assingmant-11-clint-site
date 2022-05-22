@@ -11,7 +11,7 @@ const ManageProducts = () => {
     const handleDelete = (id) => {
         const proceed = window.confirm("Are you sure ! you want to, delete this item?");
         if(proceed){
-            fetch(`http://localhost:5000/fruits/${id}`, {
+            fetch(`https://stormy-peak-48682.herokuapp.com/fruits/${id}`, {
                 method: "DELETE",
             })
             .then(res => res.json())

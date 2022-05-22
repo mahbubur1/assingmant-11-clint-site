@@ -8,7 +8,7 @@ const Address = () => {
         <h1 className="title-product mx-auto">Our Address</h1>
         <div className="row mx-auto address-container">
           <div className="col-md-4 col-12 address ">
-            <h2 > Import & Export Agency Dubai </h2>
+            <h2 >Halal Food Arab Emirates</h2>
             <p>
               Sales Head Office, P.O. Box 13754, Dubai, United Arab Emirates{" "}
               <br />
@@ -18,10 +18,9 @@ const Address = () => {
           <div className="col-md-4 col-12 address ">
             <h2 >Bismillah Fol Vandar </h2>
             <p>
-               Sena Shopping Er Nich Tolay 253 No: Shop 259 Ashulia Savar Dhaka
-              1240
+               Est Jatrabari 07 No: Shop  Jatrabari Dhaka
               <br /> Call Us +88 019 2225 7777 <br />
-              Whatsapp: 01981 841293
+              Whatsapp: 01608299203
             </p>
           </div>
           <div className="col-md-4 col-12 address">

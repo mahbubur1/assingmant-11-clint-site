@@ -33,16 +33,16 @@ const Footer = () => {
           <span className="icons me-2">
             <FaRegAddressCard />
           </span>{" "}
-          Kurgao Puraton Para Ashulia Savar Dhaka-1440
+          vagdi,Narsingdi Sadar,Narsingdi
         </p>
         <p className="footer-font-size">
           {" "}
-          <BsFillTelephoneFill className="me-2" /> +88 01796 903004
+          <BsFillTelephoneFill className="me-2" /> +88 01831535473
         </p>
         
         <a
           className="icons-social "
-          href="https://www.facebook.com/raihan.faruk.9022 "
+          href="https://www.facebook.com/mdmahbubor.rahman.94 "
         >
           <BsFacebook />
         </a>
@@ -51,11 +51,11 @@ const Footer = () => {
         </a>
         <a
           className="icons-social"
-          href="https://www.linkedin.com/in/farhan-ahmed-1b8b3a220/"
+          href="https://www.linkedin.com/in/md-mahbubor-rahman-a2870723b/"
         >
           <BsLinkedin />
         </a>
-        <a className="icons-social" href="https://github.com/Farhan910">
+        <a className="icons-social" href="https://github.com/mahbubur1">
           <BsGithub />
         </a>
         <a className="icons-social" href="https://web.whatsapp.com/">

@@ -21,10 +21,12 @@ const Home = () => {
       <Banner />
       <ServiceSlider />
       <h1 className="title-product mx-auto">Products</h1>
-      <div className="products-card container">
+      <div className="container">
+      <div className="products-card mx-auto">
         {products.slice(0, 6).map((product) => (
           <ProductsCard key={product._id} product={product} />
         ))}
+      </div>
       </div>
      <div className="text-center">
      <button className="btn btn-light shadow-none btn-color mt-5 " onClick={handleProducts}>

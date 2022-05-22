@@ -1,9 +1,8 @@
 .products-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 40px;
+    grid-gap: 10px;
     margin-top: 200px;
-    max-width: 100%;
 }
 .product{   
     background-image: url(../../Images/bg59.jpg);

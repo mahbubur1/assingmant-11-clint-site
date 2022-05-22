@@ -15,9 +15,6 @@ const Banner = () => {
             src={banner4}
             alt="First slide"
           />
-          <Carousel.Caption>
-          
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -25,10 +22,6 @@ const Banner = () => {
             src={banner5}
             alt="Second slide"
           />
-
-          <Carousel.Caption>
-            
-          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -36,10 +29,6 @@ const Banner = () => {
             src={banner2}
             alt="Third slide"
           />
-
-          <Carousel.Caption>
-            
-          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>

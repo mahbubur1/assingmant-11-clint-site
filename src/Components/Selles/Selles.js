@@ -10,10 +10,7 @@ const Selles = () => {
             <span data-aos="fade-up" className="counting-text">Dates :  <CountUp end={1260} /> <br/> Tons </span>
             <span data-aos="fade-up"className="counting-text">Native Fruits :  <CountUp end={2000} /> <br/>Tons</span>
             <span data-aos="fade-up"className="counting-text">All seasons Fruits :  <CountUp end={690} /> <br/>Tons</span>
-           
             </div>
-            
-            
         </div>
     );
 };

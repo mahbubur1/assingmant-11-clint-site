@@ -14,16 +14,14 @@ const ProductsCard = ({ product }) => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom"
-      
+      data-aos-anchor-placement="center-bottom" 
+    className="col-md-4 col p-0 mx-0 my-3"
     >
-      
-      <Card style={{ width: "18rem" }} id="card">
+      <Card style={{ width: "13rem" }} id="card">
         <Card.Body>
           <img className="card-images" src={img} alt={img} />
           <div className="card-text">
             <div className="">
-              
               <h3>{name}</h3>
               <span className="text-danger "> Price: {price} </span>
             </div>

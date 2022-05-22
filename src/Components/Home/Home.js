@@ -22,7 +22,7 @@ const Home = () => {
       <ServiceSlider />
       <h1 className="title-product mx-auto">Products</h1>
       <div className="container">
-      <div className="products-card mx-auto">
+      <div className="row">
         {products.slice(0, 6).map((product) => (
           <ProductsCard key={product._id} product={product} />
         ))}

@@ -1,8 +1,7 @@
 .footer{
-    height: 500px;
+    height: 380px;
     background: #88BE4C;
-    margin-top: 150px;
-    padding: 30px 80px;
+    padding: 80px;
 }
 .footer-font-size{
     font-size: 10px;
@@ -43,4 +42,10 @@
     margin-top: 20px;
     margin-left: 10px;
 }
+   
+@media screen  and (max-width:557px){
     
+    .footer{
+        padding: 20px;
+    }
+}

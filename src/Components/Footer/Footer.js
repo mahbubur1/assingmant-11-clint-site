@@ -14,8 +14,9 @@ import logo from "../../Images/favicon.png"
 
 const Footer = () => {
   return (
-    <div className="footer row m-0">
-      <div className="footer-text col-lg-4 col-6">
+    <div className="footer ">
+      <div className="row ">
+      <div className="footer-text col-lg-4 col-sm-4">
         <h6 className="d-flex align-items-center my-0 py-0">
         <img className="site-logo" src={logo} alt="" />
         <p className="ps-1 pt-3">Halal Food</p>
@@ -61,7 +62,7 @@ const Footer = () => {
           <BsWhatsapp />
         </a>
       </div>
-      <div className="col-lg-3 col-3 footer-text">
+      <div className=" col-sm-4 col-lg-3 footer-text">
         <h6>Quick Links</h6>
         <Link className="links mb-0 pb-1 footer-font-size" to="/products">
           {" "}
@@ -86,7 +87,7 @@ const Footer = () => {
           Login
         </Link>
       </div>
-      <div className="col-lg-3 col-3 footer-text">
+      <div className="col-sm-4 col-lg-3 footer-text pe-0 me-0">
         <h6>Our Services</h6>
         <Link className="links mb-0 pb-1 footer-font-size" to="/about">
           {" "}
@@ -103,7 +104,8 @@ const Footer = () => {
           Tutorial
         </Link>
       </div>
-      <div className="form">
+      </div>
+      <div className="form ">
           <input type="email" name="Email" id="" placeholder="Email" />
           <input type="submit" value="Send" />
         </div>

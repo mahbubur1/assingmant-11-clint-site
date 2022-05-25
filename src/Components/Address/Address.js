@@ -16,7 +16,7 @@ const Address = () => {
             </p>
           </div>
           <div className="col-md-4 col-12 address ">
-            <h2 >Bismillah Fol Vandar </h2>
+            <h2 >Halal Food Corner </h2>
             <p>
                Est Jatrabari 07 No: Shop  Jatrabari Dhaka
               <br /> Call Us +88 019 2225 7777 <br />
@@ -24,10 +24,11 @@ const Address = () => {
             </p>
           </div>
           <div className="col-md-4 col-12 address">
-            <h2 >Import & Export Agency London </h2>
+            <h2 >Narsindi Halal Food </h2>
             <p>
-              4 Corners Distribution L.T.D. Unit 3B Katella Trading Estate 10A
-              River Road, Barking, Essex IG11 ODG , Essex United Kingdom England
+              Vagdi Markaj Mor,Narsingdi Sadar,Narsingdi.
+              <br />Call Us 01831535473 <br />
+              Whatsapp: 01913-202244
             </p>
           </div>
         </div>

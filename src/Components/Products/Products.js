@@ -9,7 +9,7 @@ const Products = () => {
 
   return (
     <div className="product">
-      <h2 className="text-light product-title"> Seasonal fruit Store</h2>
+      <h2 className="text-light product-title"> Halal Food Store</h2>
       <img className="w-100 product-banner" src={image} alt="" />
       <div className="products-card container">
         {products.map((product) => (

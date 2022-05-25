@@ -4,8 +4,10 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div className="row container mt-5">
-            <img className="w-50 blog-img" src={image4} alt="" />
+        <div className="row mt-5 p-5">
+            <div className="col-md-6">
+            <img className="w-100 blog-img" src={image4} alt="" />
+            </div>
             <div className="col-md-6 ">
                 <h4>Difference between Node.JS and Javascript ?</h4>
                 <p>১ :জাভাস্ক্রিপ্ট হলো একটা প্রগ্রামিং ল্যাংগুয়েজ,আর Node js হলো  runtime environment. </p>

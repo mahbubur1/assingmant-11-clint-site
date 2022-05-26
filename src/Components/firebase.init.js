@@ -2,7 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
-// Your web app's Firebase configuration
+
 const firebaseConfig = {
   apiKey: "AIzaSyDyFSxR4QUY7MaY1xQZe03fFyqfti1Qv5E",
   authDomain: "halal-food-f3299.firebaseapp.com",

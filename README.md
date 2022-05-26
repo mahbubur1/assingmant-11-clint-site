@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This Project [Live Link](https://ns-mobile-house.netlify.app/).
+This Project [Live Link](https://halal-food-corner.netlify.app/).
 
 ## Website Future
 
